@@ -11,7 +11,7 @@ import streamlit as st
 
 icon=Image.open('image/images (1).png')
 st.set_page_config(layout="wide", page_title=" Spotify Recommendation System", page_icon=icon)
-selected=streamlit_option_menu.option_menu("Menu",["About", "Data", "Data Explore", "Recommendation model", "Conclusion", "Contact"],
+selected=streamlit_option_menu.option_menu("Menu",["About", "Data", "Data Explore", "Recommendation model", "Conclusion"],
                                            icons=["exclamation-circle","search","bar-chart","globe","lightbulb",'telephone-forward' ],
                                            menu_icon="cast",
                                            default_index=0,
