@@ -27,7 +27,7 @@ if selected=='About':
         icon = Image.open('image/images (1).png')
         st.image(icon, width=50)
     with col1:
-        st.header(":Green[Spotify Recommendation System]")
+        st.header(":green[Spotify Recommendation System]")
 
     st.markdown(':blue[Technology used: Python, Streamlit, EDA, Plotly, Seaborn, Pandas, Machine learning]')
 
