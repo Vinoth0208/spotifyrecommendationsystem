@@ -24,7 +24,7 @@ selected=streamlit_option_menu.option_menu("Menu",["About", "Data", "Data Explor
 if selected=='About':
     col1,col2=st.columns([1,1.6])
     with col2:
-        icon = Image.open('image\images (1).png')
+        icon = Image.open('image/images (1).png')
         st.image(icon, width=50)
     with col1:
         st.header(":Green[Spotify Recommendation System]")
