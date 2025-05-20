@@ -1,7 +1,7 @@
 import sys
 
 from model import model
-from PIL import , Filter
+from PIL import Image, ImageFilter
 sys.path.insert(1,r"spotifyrecommendationsystem\venv\Lib\site-packages")
 import streamlit_option_menu
 from streamlit_option_menu import option_menu
