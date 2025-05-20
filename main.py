@@ -1,7 +1,7 @@
 import sys
 
 from model import model
-from PIL import Image, ImageFilter
+from PIL import , Filter
 sys.path.insert(1,r"spotifyrecommendationsystem\venv\Lib\site-packages")
 import streamlit_option_menu
 from streamlit_option_menu import option_menu
@@ -9,7 +9,7 @@ from Data import data
 from Datapreprocess import preprocess
 import streamlit as st
 
-icon=Image.open('spotifyrecommendationsystem/image/images (1).png')
+icon=.open('image/images (1).png')
 st.set_page_config(layout="wide", page_title=" Spotify Recommendation System", page_icon=icon)
 selected=streamlit_option_menu.option_menu("Menu",["About", "Data", "Data Explore", "Recommendation model", "Conclusion", "Contact"],
                                            icons=["exclamation-circle","search","bar-chart","globe","lightbulb",'telephone-forward' ],
@@ -24,8 +24,8 @@ selected=streamlit_option_menu.option_menu("Menu",["About", "Data", "Data Explor
 if selected=='About':
     col1,col2=st.columns([1,1.6])
     with col2:
-        icon = Image.open('spotifyrecommendationsystem/image/images (1).png')
-        st.image(icon, width=50)
+        icon = .open('/s (1).png')
+        st.(icon, width=50)
     with col1:
         st.header(":Green[Spotify Recommendation System]")
 
