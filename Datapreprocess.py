@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def preprocess():
-    df = pd.read_parquet(r"Data\0000 (1).parquet")
+    df = pd.read_parquet("Data/0000 (1).parquet")
     print(df.columns)
     df.drop(columns="Unnamed: 0", axis=1, inplace=True)
     print(df.info())
