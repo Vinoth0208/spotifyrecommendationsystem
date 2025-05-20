@@ -121,7 +121,7 @@ langchain-text-splitters==0.3.0
 langcodes==3.3.0
 langsmith==0.1.137
 libclang==18.1.1
-lxml==4.9.2
+lxml
 Markdown==3.8
 markdown-it-py==3.0.0
 MarkupSafe==3.0.2
